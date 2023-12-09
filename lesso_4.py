@@ -31,7 +31,7 @@ students['Іван Петров']['bank_account_number'] = None
 score_sum = 0
 for student_info in students.values():
     score_sum += student_info['Середній бал']
-average_score = score_sum / 4
+average_score = score_sum / len(students)
 salery_of_kurich = students['Женя Курич'].get('Зарплата', 0.0)
 
 print(f'''
