@@ -161,3 +161,4 @@ cython_debug/
 notes
 .DS_Store
 airport-codes_csv.csv
+data.json
