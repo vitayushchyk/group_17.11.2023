@@ -162,3 +162,4 @@ notes
 .DS_Store
 airport-codes_csv.csv
 data.json
+config.py
