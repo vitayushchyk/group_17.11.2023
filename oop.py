@@ -18,6 +18,8 @@ class Car:
             f'яку компанія {self.brand.title()} випустили в {self.year}?'
         )
 
+    __repr__ = __str__
+
     def apply_signal(self):
         subprocess.run(["say", '"обережно, там тупик"'])
 
